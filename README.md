@@ -1,43 +1,43 @@
 # Redux Contacts
 
-React Native ile hazırlanmış, Redux kullanarak kişi ekleme ve listeleme uygulaması.
+A React Native application for adding and listing contacts using Redux.
 
-## Özellikler
+## Features
 
-- Kişi ekleme
-- Kişi listesi görüntüleme
-- Redux ile global state yönetimi
-- React Navigation ile ekranlar arası geçiş
+- Add contacts
+- View contact list
+- Global state management with Redux
+- Navigation between screens with React Navigation
 
-## Kurulum
+## Installation
 
-1. **Projeyi klonla:**
+1. **Clone the project:**
    ```sh
-   git clone https://github.com/kullaniciadi/reduxcontacts.git
+   git clone https://github.com/yourusername/reduxcontacts.git
    cd reduxcontacts
    ```
 
-2. **Bağımlılıkları yükle:**
+2. **Install dependencies:**
    ```sh
    npm install
-   # veya
+   # or
    yarn install
    ```
 
-3. **Mobil uygulamayı başlat:**
+3. **Start the mobile app:**
    ```sh
    npx react-native run-android
-   # veya
+   # or
    npx react-native run-ios
    ```
 
-## Kullanılan Teknolojiler
+## Technologies Used
 
 - React Native
 - Redux & React-Redux
 - React Navigation
 
-## Klasör Yapısı
+## Folder Structure
 
 ```
 reduxcontacts/
@@ -49,16 +49,15 @@ reduxcontacts/
 │   └── utils/
 ```
 
-## Notlar
+## Notes
 
-- Kişi eklerken isim ve telefon numarası zorunludur.
-- Telefon numarası en az 11 karakter olmalıdır.
-- Kişi eklendikten sonra ana ekrana yönlendirilir.
+- Name and phone number are required when adding a contact.
+- Phone number must be at least 11 characters.
+- After adding a contact, you will be redirected to the home screen.
 
-## Katkı
+## Contribution
 
-Katkıda bulunmak için lütfen bir pull request gönderin.
+Feel free to send a pull request to contribute.
 
 ---
 
-**Hazırlayan:**
