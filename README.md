@@ -61,3 +61,8 @@ Feel free to send a pull request to contribute.
 
 ---
 
+## Screenshot
+![reactnative-reduxcontacts](https://github.com/user-attachments/assets/75b218bc-8f43-456a-9c65-5b499cf53784)
+
+
+
